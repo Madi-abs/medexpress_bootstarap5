@@ -50,9 +50,9 @@ $(document).ready(function () {
     smartSpeed: 1000,
     nav: false,
     dots: false,
-    // autoplay: true,
-    // autoplayTimeout: 2000,
-    // autoplayHoverPause: false,
+    autoplay: true,
+    autoplayTimeout: 2000,
+    autoplayHoverPause: false,
     responsive: {
       0: {
         items: 1,
