@@ -152,6 +152,18 @@ img {
    box-shadow: none;
 }
 
+.btn-accent2 {
+   background-color: var(--coloraccent2);
+   color: var(--colorwhite);
+   font-size: 12px;
+}
+
+.btn-closepopup {
+   background-color: var(--colorgrey);
+   color: var(--colorwhite);
+   font-size: 12px;
+}
+
 /* slider */
 .slide1 {
    background: linear-gradient(rgba(255, 79, 3, 0.7), rgba(192, 59, 3, 0.9)), url(../image/man-by-truck-guy-delivery-uniform-man-with-clipboard_1157-46192\ 1.jpg) top center;
@@ -191,6 +203,7 @@ img {
    position: absolute !important;
    bottom: 15px !important;
    left: 50% !important;
+   transform: translate(-50%);
 }
 
 .owl-dot span {
@@ -449,7 +462,6 @@ img {
    }  
 }
 
-
 @media (max-width:576px) {
    .specifications__line4 {
      display: none;
@@ -490,7 +502,7 @@ img {
 
 @media (max-width:576px) {
    .cta {
-      padding: 100px 20px;
+      padding: 100px 10px;
    }   
 }
 
@@ -511,10 +523,17 @@ img {
 
 .btn-cta {
    font-size: 16px;
+   line-height: 1.2;
    width: 100%;
    display: inline-block;
    padding: 8px 50px;
    border-radius: 24px;
+}
+
+@media (max-width:576px) {
+   .btn-cta{
+      font-size: 14px;
+   }   
 }
 
 .cta__title {
@@ -564,18 +583,6 @@ img {
    color: var(--colorgrey);
    outline: none !important;
    box-shadow: none;
-}
-
-.btn-accent2 {
-   background-color: var(--coloraccent2);
-   color: var(--colorwhite);
-   font-size: 12px;
-}
-
-.btn-closepopup {
-   background-color: var(--colorgrey);
-   color: var(--colorwhite);
-   font-size: 12px;
 }
 
 /* partners */
